@@ -1,0 +1,25 @@
+{
+  "name": "apple-music-electron",
+  "version": "1.0.0",
+  "description": "A Linux client for Apple Music built with Electron.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "build": "tsc && electron-builder --linux --x64",
+    "build:appimage": "tsc && electron-builder --linux AppImage",
+    "build:deb": "tsc && electron-builder --linux deb",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.15.29",
+    "electron-builder": "^24.0.0",
+    "typescript": "^5.0.0"
+  },
+  "homepage": "https://music.apple.com/fr/home",
+  "author": "Your Name",
+  "license": "MIT"
+}

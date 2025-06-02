@@ -1,0 +1,21 @@
+{
+  "appId": "com.applemusic.linux",
+  "productName": "Apple Music",
+  "directories": {
+    "output": "dist-packages"
+  },
+  "files": [
+    "dist/**/*",
+    "src/assets/**/*"
+  ],
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "icon": "src/assets/logo.png",
+    "category": "Audio",
+    "description": "Application Apple Music pour Linux",
+    "maintainer": "Apple Music Linux"
+  }
+}
